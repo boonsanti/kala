@@ -1,4 +1,4 @@
-module github.com/ajvb/kala
+module github.com/boonsanti/kala
 
 go 1.13
 
@@ -6,7 +6,7 @@ require (
 	github.com/DATA-DOG/go-sqlmock v1.3.0
 	github.com/armon/go-metrics v0.3.0 // indirect
 	github.com/boltdb/bolt v1.3.1
-	github.com/codegangsta/cli v0.0.0-20150711215404-bca61c476e3c
+	github.com/codegangsta/cli v1.8.1-0.20150711215404-bca61c476e3c
 	github.com/codegangsta/negroni v1.0.0
 	github.com/cornelk/hashmap v1.0.1
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
