@@ -7,7 +7,7 @@ jobs:
         command: "-server -bootstrap"
       - image: mongo:3.4
 
-    working_directory: /go/src/github.com/ajvb/kala
+    working_directory: /go/src/github.com/boonsanti/kala
     environment:
       TEST_RESULTS: /tmp/test-results
 

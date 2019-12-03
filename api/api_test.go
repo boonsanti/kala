@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ajvb/kala/job"
+	"github.com/boonsanti/kala/job"
 
 	"testing"
 
