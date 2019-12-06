@@ -280,6 +280,9 @@ func (c *LockFreeJobCache) Delete(id string) error {
 
 func (c *LockFreeJobCache) Persist() error {
 	jm := c.GetAll()
+	if jm == nil {
+		return nil
+	}
 	for _, j := range jm.Jobs {
 		j.lock.RLock()
 		defer j.lock.RUnlock()
